@@ -1,0 +1,113 @@
+/* Make the main UI container transparent */
+QWidget#ui_container {
+    background-color: transparent;
+}
+
+/* General style for other widgets */
+QWidget {
+    background-color: transparent;
+    color: #4CAF50; /* PALE GREEN */
+    font-family: 'Consolas', 'Courier New', 'monospace';
+    font-size: 14px;
+}
+
+/* Search bar and Title edit */
+QLineEdit {
+    background-color: rgba(10, 10, 10, 0.7);
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    border-radius: 5px;
+    padding: 5px;
+    color: #4CAF50; /* PALE GREEN */
+}
+
+QLineEdit:focus {
+    border: 1px solid #81C784; /* LIGHTER PALE GREEN */
+}
+
+/* Tags and Notes lists */
+QListWidget {
+    background-color: rgba(10, 10, 10, 0.7);
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 5px;
+}
+
+QListWidget::item:selected {
+    background-color: #4CAF50; /* PALE GREEN */
+    color: #0D0D0D;
+}
+
+QListWidget::item:hover {
+    background-color: #262626;
+}
+
+/* Note body */
+QTextEdit {
+    background-color: rgba(10, 10, 10, 0.7);
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    border-radius: 5px;
+    padding: 10px;
+    color: #4CAF50; /* PALE GREEN */
+}
+
+/* Toolbar */
+QToolBar {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+QToolBar QToolButton {
+    color: #4CAF50; /* PALE GREEN */
+    background-color: rgba(10, 10, 10, 0.7);
+    padding: 5px 10px;
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+QToolBar QToolButton:hover {
+    background-color: #4CAF50; /* PALE GREEN */
+    color: #0D0D0D;
+}
+
+QToolBar QToolButton:pressed {
+    background-color: #81C784; /* LIGHTER PALE GREEN */
+}
+
+/* Labels */
+QLabel {
+    color: #4CAF50; /* PALE GREEN */
+    font-weight: bold;
+    padding: 5px 0;
+    background-color: transparent;
+}
+
+/* Scrollbars */
+QScrollBar:vertical {
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    background: #1A1A1A;
+    width: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #4CAF50; /* PALE GREEN */
+    min-height: 20px;
+}
+
+QScrollBar:horizontal {
+    border: 1px solid #4CAF50; /* PALE GREEN */
+    background: #1A1A1A;
+    height: 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #4CAF50; /* PALE GREEN */
+    min-width: 20px;
+}

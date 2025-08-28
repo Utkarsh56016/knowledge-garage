@@ -1,0 +1,53 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Force Windows line endings for these files
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+*.sh text eol=lf
+
+# Force binary for binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.exe binary
+*.dll binary
+*.pyc binary
+*.pyo binary
+*.pyd binary
+*.so binary
+*.dylib binary
+*.a binary
+*.o binary
+*.obj binary
+
+# Force specific line endings for specific file types
+*.py text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.qss text eol=lf
+
+# Don't normalize line endings for these files
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.vcxproj.filters text eol=crlf
+*.vcxproj.user text eol=crlf
+*.suo binary
+*.user binary
+*.userosscache binary
+*.sln.docstates binary
+*.userprefs binary
+*.DS_Store binary
+*.db binary
