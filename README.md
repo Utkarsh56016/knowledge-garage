@@ -2,8 +2,6 @@
 
 A modern, feature-rich desktop application for organizing and managing your knowledge, notes, and code snippets with a clean and intuitive interface.
 
-![The Knowledge Garage Screenshot](screenshot.png)
-
 ## ✨ Features
 
 - 📝 Rich text note-taking
@@ -24,7 +22,7 @@ A modern, feature-rich desktop application for organizing and managing your know
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/knowledge-garage.git
+git clone https://github.com/Utkarsh56016/knowledge-garage.git
 cd knowledge-garage
 ```
 
@@ -72,7 +70,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Utkarsh Mishra**
 - Email: utkarshmishrahe0450@gmail.com
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@Utkarsh56016](https://github.com/Utkarsh56016)
 
 ## 🙏 Acknowledgments
 - Built with [PySide6](https://www.pyside.org/)
